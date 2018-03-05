@@ -1,0 +1,41 @@
+﻿@model IList<FacePlace.DataLayer.Model.Post>
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_FacePlaceLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+@{
+    foreach (var post in Model)
+    {
+        <!-- Post -->
+        <article class="post">
+            <header>
+                <div class="title">
+                    <h2><a href="#">@post.Place.Name</a></h2>
+                    <p>Rating: @post.Place.AverageRating</p>
+                    <p>Number of votes: @post.Place.NumberOfVotes</p>
+                </div>
+                <div class="meta">
+                    <time class="published" datetime="2015-11-01">@post.Time</time>
+                    <a href="#" class="author"><span class="name">@post.User.Username</span><img src="~/images/avatar.jpg" alt="" /></a>
+                </div>
+            </header>
+            <a href="#" class="image featured"><img src="~/images/pic01.jpg" alt="" /></a>
+            <p>@post.Comment</p>
+            <footer>
+                <ul class="actions">
+                    <li><a href="#" class="button big">Continue Reading</a></li>
+                </ul>
+                <ul class="stats">
+                    <li><a href="#">General</a></li>
+                    <li><a href="#" class="icon fa-heart">28</a></li>
+                    <li><a href="#" class="icon fa-comment">128</a></li>
+                </ul>
+            </footer>
+        </article>
+    }
+}

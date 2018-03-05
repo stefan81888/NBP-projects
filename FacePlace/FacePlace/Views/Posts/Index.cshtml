@@ -1,0 +1,48 @@
+﻿@model FacePlace.ViewModels.HomePageViewModel
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_FacePlaceLayout.cshtml";
+}
+
+@{
+    foreach (var post in Model.Posts)
+    {
+        <!-- Post -->
+        <article class="post">
+            <header>
+                <div class="title">
+                    <h2>
+                        @{
+                             var placeName = post.Place.Name;
+                            var placeId = post.Place.Id;
+                            var activeUserUsername = Model.User.Username;
+                        }
+                        @Html.ActionLink(placeName, "PlacePosts","Posts",new { placeId = placeId, activeUserUsername = activeUserUsername }, new { @class = "author" })
+                    </h2>
+                    <p>Rating: @post.Place.AverageRating</p>
+                    <p>Number of votes: @post.Place.NumberOfVotes</p>
+                </div>
+                <div class="meta">
+                    <label class="published">@post.Time</label>
+                  
+                       @{
+                           var username = Model.User.Username;
+                           var friend = post.User.Username;
+                        } 
+                    @Html.ActionLink(friend,"FriendsPost", "Posts", new { friend = friend, username = username }, new { @class = "author" })
+                </div>
+            </header>
+            <a href="#" class="image featured"><img src="~/images/pic01.jpg" alt="" /></a>
+            <p>@post.Comment</p>
+            <footer>
+                <ul class="stats">
+                    <li><a href="#">General</a></li>
+                    <li><a href="#" class="icon fa-heart">28</a></li>
+                    <li><a href="#" class="icon fa-comment">128</a></li>
+                </ul>
+            </footer>
+        </article>
+    }
+}

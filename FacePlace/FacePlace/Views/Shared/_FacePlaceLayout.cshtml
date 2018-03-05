@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <title>FacePlace</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    @Styles.Render("~/assets/css/main.css")
+    @*<link rel="stylesheet" href="assets/css/main.css" />*@
+</head>
+<body>
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="#">Faceplace</a></h1>
+            <nav class="links">
+                <ul>
+                    <li>
+                        @{
+                            string username = Model.User.Username;
+                        }
+                        @Html.ActionLink("My profile", "MyProfile", "Posts", new { username = username }, new { @class = "button " })
+                        @Html.ActionLink("News feed", "Index", "Posts", new { username = username }, new { @class = "button " })
+                        @Html.ActionLink("Add post", "AddPost", "Posts", new { username = username }, new { @class = "button " })
+                        @Html.ActionLink("Edit profile", "EditUserProfile", "Posts", new { username = username }, new { @class = "button " })
+                    </li>
+                </ul>
+            </nav>
+            <nav class="main">
+                <ul>
+                    <li class="search">
+                        <a class="fa-search" href="#search">Search</a>
+                        @using (Html.BeginForm("SearchPlaces", "Posts", FormMethod.Get))
+                        {
+                            @Html.TextBox("criteria", null, new { placeholder = "Search places"})
+                            <input type="hidden" value=@Model.User.Username name="activeUserUsername" />
+                        }
+                        @*<form id="search" method="get" action="#">
+                            <input type="text" name="query" placeholder="Search" />*@
+                        </form>
+                    </li>
+                    <li class="menu">
+                        <a class="fa-bars" href="#menu">Menu</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Menu -->
+        <section id="menu">
+
+            <!-- Search -->
+            <section>
+                <form class="search" method="get" action="#">
+                    <input type="text" name="query" placeholder="Search" />
+                </form>
+            </section>
+
+            <!-- Links -->
+            <section>
+                <ul class="actions vertical">
+                    <li>
+                         @Html.ActionLink("Log out", "Index", "Posts", new {@class="button big fit"})
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+        <!-- Main -->
+        <div id="main">
+
+            <div>
+                @RenderBody()
+            </div>          
+            <!-- Pagination -->
+            @*<ul class="actions pagination">
+                <li><a href="" class="disabled button big previous">Previous Page</a></li>
+                <li><a href="#" class="button big next">Next Page</a></li>
+            </ul>*@
+
+        </div>
+
+        <!-- Sidebar -->
+        <section id="sidebar">
+
+            <!-- Intro -->
+            <section id="intro">
+                <a href="#" class="logo"><img src="~/images/logo.jpg" alt="" /></a>
+                <header>
+                    <h2>@Model.User.FirstName  @Model.User.LastName</h2>
+                    <p>@Model.User.Email</p>
+                </header>
+            </section>
+
+        <section>
+              @Html.Partial("_RecomendedPlaces")
+            
+        </section>
+
+            <!-- Posts List -->
+            <section>
+               @Html.Partial("_RecomendedFriends")
+            </section>        
+            <!-- Footer -->          
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    @Scripts.Render("~/bundles/assets/js")
+    
+   
+</body>
+</html>

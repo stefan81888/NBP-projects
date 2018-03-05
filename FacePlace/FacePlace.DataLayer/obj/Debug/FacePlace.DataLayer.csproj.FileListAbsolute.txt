@@ -1,0 +1,44 @@
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.DataLayer\bin\Debug\FacePlace.DataLayer.dll.config
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.DataLayer\bin\Debug\FacePlace.DataLayer.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.DataLayer\bin\Debug\FacePlace.DataLayer.pdb
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.DataLayer\bin\Debug\Neo4jClient.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.DataLayer\bin\Debug\Newtonsoft.Json.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.DataLayer\bin\Debug\Neo4jClient.pdb
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.DataLayer\bin\Debug\Neo4jClient.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.DataLayer\bin\Debug\Newtonsoft.Json.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.DataLayer\obj\Debug\FacePlace.DataLayer.csprojResolveAssemblyReference.cache
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.DataLayer\obj\Debug\FacePlace.DataLayer.csproj.CoreCompileInputs.cache
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.DataLayer\obj\Debug\FacePlace.DataLayer.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.DataLayer\obj\Debug\FacePlace.DataLayer.pdb
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\bin\Debug\FacePlace.DataLayer.dll.config
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\bin\Debug\FacePlace.DataLayer.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\bin\Debug\FacePlace.DataLayer.pdb
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\bin\Debug\Neo4jClient.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\bin\Debug\System.Net.Http.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\bin\Debug\Neo4jClient.pdb
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\bin\Debug\Neo4jClient.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\bin\Debug\System.Net.Http.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\obj\Debug\FacePlace.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\obj\Debug\FacePlace.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\obj\Debug\FacePlace.DataLayer.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.DataLayer\obj\Debug\FacePlace.DataLayer.pdb
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\bin\Debug\FacePlace.DataLayer.dll.config
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\bin\Debug\FacePlace.DataLayer.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\bin\Debug\FacePlace.DataLayer.pdb
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\bin\Debug\Neo4jClient.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\bin\Debug\Newtonsoft.Json.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\bin\Debug\System.Net.Http.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\bin\Debug\System.Net.Http.WebRequest.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\bin\Debug\Neo4jClient.pdb
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\bin\Debug\Neo4jClient.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\bin\Debug\Newtonsoft.Json.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\bin\Debug\System.Net.Http.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\bin\Debug\System.Net.Http.WebRequest.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\obj\Debug\FacePlace.DataLayer.csprojResolveAssemblyReference.cache
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\obj\Debug\FacePlace.DataLayer.csproj.CoreCompileInputs.cache
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\obj\Debug\FacePlace.DataLayer.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.DataLayer\obj\Debug\FacePlace.DataLayer.pdb

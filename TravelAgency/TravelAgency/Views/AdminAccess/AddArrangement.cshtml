@@ -1,0 +1,124 @@
+﻿@model TravelAgency.ViewModels.ArrangementDestinationViewModel
+
+
+@{
+    ViewBag.Title = "AddArrangement";
+    Layout = "~/Views/Shared/_AddArrangement.cshtml";
+}
+
+<h2>AddArrangement</h2>
+
+<div class="tab-content">
+
+
+    @using (Html.BeginForm("SaveArrangement", "AdminAccess"))
+    {
+         <div id="arrangementForm">
+        <div class="field-wrap">
+            <label>
+                Cena<span class="req">*</span>
+            </label>
+            @Html.TextBoxFor(m => m.Arrangement.Price, new { required = "required", autocomplete = "off" })
+        </div>
+        <div class="field-wrap">
+            <label>
+                Maksimalan broj putnika<span class="req">*</span>
+            </label>
+            @Html.TextBoxFor(m => m.Arrangement.MaxNumberOfPassengers, new { required = "required", autocomplete = "off" })
+        </div>
+        <div class="field-wrap">
+            <label>
+                Datum pocetka<span class="req">*</span>
+            </label>
+            @Html.TextBoxFor(m => m.Arrangement.StartDate, new { required = "required", autocomplete = "off" })
+        </div>
+        <div class="field-wrap">
+            <label>
+                Trajanje<span class="req">*</span>
+            </label>
+            @Html.TextBoxFor(m => m.Arrangement.Duration, new { required = "required", autocomplete = "off" })
+        </div>
+
+        <div class="field-wrap">
+            @{String[] type = { "Half Board", "Full Board", "All Inclusive" }; }
+            @Html.LabelFor(m => m.Arrangement.Type)
+            @Html.DropDownListFor(m => m.Arrangement.Type,
+                         new SelectList(type, "Type"), "",
+                         new { @class = "form-control" })
+        </div>
+
+        <div class="field-wrap">
+            <label>
+                Opis:<span class="req">*</span>
+            </label>
+            @Html.TextAreaFor(m => m.Arrangement.Description, new { required = "required", autocomplete = "off" })
+        </div>
+
+
+        <input id="btnArrangement" type="button" class="button button-block" value="Dalje" />
+    </div>
+
+
+        <div id="hotelForm">
+            <div class="field-wrap">
+                <label>
+                    Id hotela (uneti samo ovo ako hotel vec postoji)
+                </label>
+                @Html.TextBoxFor(m => m.HotelId, new {autocomplete = "off" })
+            </div>
+            <div class="field-wrap">
+                <label>
+                    Naziv hotela<span class="req">*</span>
+                </label>
+                @Html.TextBoxFor(m => m.Hotel.Name, new { required = "required", autocomplete = "off" })
+            </div>
+            <div class="field-wrap">
+                <label>
+                    Lokacija hotela<span class="req">*</span>
+                </label>
+                @Html.TextBoxFor(m => m.Hotel.Location, new { required = "required", autocomplete = "off" })
+            </div>
+            <div class="field-wrap">
+                @{int[] stars = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }; }
+                @Html.LabelFor(m => m.Hotel.Stars)
+                @Html.DropDownListFor(m => m.Hotel.Stars,
+                            new SelectList(stars, "Stars"), "",
+                            new { @class = "form-control" })
+            </div>
+            <input id="btnHotel" type="button" class="button button-block" value="Dalje" />
+
+        </div>
+
+
+        
+        <div id="destinationForm">
+            <div class="field-wrap">
+                <label>
+                    Id destinacije (ako destinacija vec postoji)
+                </label>
+                @Html.TextBoxFor(m => m.DestinationId, new { autocomplete = "off" })
+            </div>
+            <div class="field-wrap">
+                <label>
+                    Drzava<span class="req">*</span>
+                </label>
+                @Html.TextBoxFor(m => m.Destination.Country, new { required = "required", autocomplete = "off" })
+            </div>
+            <div class="field-wrap">
+                <label>
+                    Naziv mesta<span class="req">*</span>
+                </label>
+                @Html.TextBoxFor(m => m.Destination.PlaceName, new { required = "required", autocomplete = "off" })
+            </div>
+            <div class="field-wrap">
+                <label>
+                    Opis:<span class="req">*</span>
+                </label>
+                @Html.TextAreaFor(m => m.Destination.Description, new { required = "required", autocomplete = "off" })
+            </div>
+
+            <button type="submit" class="button button-block">Dalje</button>
+        </div>
+    }
+
+</div><!-- tab-content -->

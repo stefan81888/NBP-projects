@@ -1,0 +1,75 @@
+﻿@model TravelAgency.ViewModels.MainPageViewModel
+
+@{
+    ViewBag.Title = "Aranžmani";
+    Layout = "~/Views/Shared/_HomePageLayout.cshtml";
+}
+
+<h2>@Model.Arrangement.Destination.PlaceName</h2>
+
+
+<div class="singlepost_area">
+    <div class="singlepost_content">
+        <a href="#" class="stuff_category">@Model.Arrangement.Destination.Country</a>
+        <span class="stuff_date"><strong>@String.Format("{0:dd MMM}", @Model.Arrangement.Arrangement.StartDate)</strong></span>
+
+        <span class="arrangement-heading">@Model.Arrangement.Destination.PlaceName</span>
+        <div class="price">Cena: @Model.Arrangement.Arrangement.Price</div>
+        <div class="duration">@Model.Arrangement.Arrangement.Duration dana</div>
+        <img class="img-center" src="~/images/hot_img1.jpg" alt="">
+        <div class="arrangement-text">
+            <p>@Model.Arrangement.Arrangement.Description</p>
+
+            @using (Html.BeginForm("Reservation", "Arrangement", new { isLogged = Model.IsLogged}, FormMethod.Post, new { @class = "reservation-form" }))
+            {
+        <div class="form-group">
+            @Html.LabelFor(m => m.Customer.FirstName)
+            @Html.TextBoxFor(m => m.Customer.FirstName, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Customer.LastName)
+            @Html.TextBoxFor(m => m.Customer.LastName, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Customer.DateOfBirth)
+            @Html.TextBoxFor(m => m.Customer.DateOfBirth, "{0:d MMM yyyy}", new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Customer.PassportNumber)
+            @Html.TextBoxFor(m => m.Customer.PassportNumber, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @{
+        int numberOfPassengers = Model.Arrangement.Arrangement.MaxNumberOfPassengers;
+        
+            }
+        </div>
+
+            for(int i=0;i< numberOfPassengers;i++)
+            {
+
+
+                <div class="fellow-input">
+                    <div class="single-input">
+                        @Html.LabelFor(m => m.Reservation.Company[i].FirstName)
+                        @Html.TextBoxFor(m => m.Reservation.Company[i].FirstName, new { @class = "form-control" })
+                    </div>
+                    <div class="single-input">
+                        @Html.LabelFor(m => m.Reservation.Company[i].LastName)
+                        @Html.TextBoxFor(m => m.Reservation.Company[i].LastName, new { @class = "form-control" })
+                    </div>
+                    <div class="single-input">
+                        @Html.LabelFor(m => m.Reservation.Company[i].PassportNumber)
+                        @Html.TextBoxFor(m => m.Reservation.Company[i].PassportNumber, new { @class = "form-control" })
+                    </div>
+                </div>
+
+            }
+                //HACK: ne moze da se posalje ObjectId kao string, pa se zato smesta u Description
+        <input type="hidden" value="@Model.Arrangement.Arrangement.Id" name="Arrangement.Arrangement.Description" id="Arrangement_Arrangement_Description" />
+        <button type="submit" class="btn btn-danger btn-register">Submit</button>
+}
+        </div>
+    </div>
+</div>

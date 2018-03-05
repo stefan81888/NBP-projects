@@ -1,0 +1,32 @@
+﻿@model TravelAgency.ViewModels.MainPageViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_HomePageLayout.cshtml";
+}
+
+
+<h2>Zemlje u ponudi</h2>
+
+
+@foreach (var destination in Model.Countries)
+{
+    <div class="single_stuff wow fadeInDown">
+        <div class="single_stuff_img"> <a href="pages/single.html"><img src="~/images/stuff_img1.jpg" alt=""></a> </div>
+        <div class="single_stuff_article">
+            <div class="single_sarticle_inner">
+                <div class="stuff_article_inner">
+                    <h2>
+                        @{  string text = destination.Country != null ? destination.Country : " ";
+                        }
+                        @Html.ActionLink(text, "CountryArrangements", "Main",new { country = destination.Country, isLogged = Model.IsLogged }, null)
+                    </h2>
+                    <p>@destination.Description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+            

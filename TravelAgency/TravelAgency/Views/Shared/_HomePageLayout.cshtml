@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Agencija</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    @Styles.Render("~/Content/assets/css")
+</head>
+<body>
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        <a class="navbar-brand" href="#"><span>Turistička</span>agencija</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        
+                        <ul style="float:right" class="nav navbar-nav custom_nav">    
+                            @if (Model.IsLogged)
+                            {
+                        <li>
+                            @Html.ActionLink("Dodaj aranžman", "AddArrangement", "AdminAccess")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Dodaj admina", "AddAdmin", "AdminAccess")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Odjava", "Logout", "AdminAccess")
+                        </li>  
+                            }
+                        <li>
+                            @Html.ActionLink("Prijava", "LoginPage", "AdminAccess")
+                        </li>
+                        </ul> 
+                    </div>
+                </div>
+            </nav>
+            <div id="searchForm">
+            @using (Html.BeginForm("SearchDestinations", "Main", new { isLogged = Model.IsLogged }))
+            {
+                @Html.TextBox("criteria", null, new { placeholder = "Pretraži destinacije" })
+
+            }
+            </div>          
+        </div>
+    </header>
+    <section id="contentbody">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-sm-12 col-md-6 col-lg-6">
+                        <div class="row">
+                            <div class="leftbar_content">
+                                <div class="naslov">
+                                    @RenderBody()
+                                </div>                
+                               
+                            </div>
+                        </div>
+                </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="row">
+                    <div class="rightbar_content">    
+                        @if (!Model.IsLogged)
+                        {
+                            @Html.Partial("_AdvanceSearch")
+}
+                        @Html.Partial("_TopArrangements")
+                        @Html.Partial("_Destinations")                       
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+</section>
+    <footer id="footer">       
+    </footer>
+    @Scripts.Render("~/bundles/assets/js")
+</body>
+</html>

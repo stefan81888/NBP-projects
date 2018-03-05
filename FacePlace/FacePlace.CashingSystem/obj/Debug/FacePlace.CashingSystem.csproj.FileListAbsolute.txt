@@ -1,0 +1,66 @@
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.CashingSystem.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.CashingSystem.pdb
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.DataLayer.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Common.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Interfaces.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Redis.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Text.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\Neo4jClient.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\Newtonsoft.Json.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.DataLayer.pdb
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.DataLayer.dll.config
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Common.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Interfaces.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Redis.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Text.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\Neo4jClient.pdb
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\Neo4jClient.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\bin\Debug\Newtonsoft.Json.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\obj\Debug\FacePlace.CashingSystem.csprojResolveAssemblyReference.cache
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\obj\Debug\FacePlace.CashingSystem.csproj.CoreCompileInputs.cache
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\obj\Debug\FacePlace.CashingSystem.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace.CashingSystem\obj\Debug\FacePlace.CashingSystem.pdb
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.CashingSystem.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.CashingSystem.pdb
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.DataLayer.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Common.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Redis.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Text.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\Neo4jClient.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\Newtonsoft.Json.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.DataLayer.pdb
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.DataLayer.dll.config
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Common.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Redis.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Text.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\Neo4jClient.pdb
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\Neo4jClient.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\bin\Debug\Newtonsoft.Json.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\obj\Debug\FacePlace.CashingSystem.csprojResolveAssemblyReference.cache
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\obj\Debug\FacePlace.CashingSystem.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\obj\Debug\FacePlace.CashingSystem.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace.CashingSystem\obj\Debug\FacePlace.CashingSystem.pdb
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.CashingSystem.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.CashingSystem.pdb
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.DataLayer.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Common.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Interfaces.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Redis.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Text.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\Neo4jClient.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\Newtonsoft.Json.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.DataLayer.pdb
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\FacePlace.DataLayer.dll.config
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Common.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Interfaces.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Redis.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\ServiceStack.Text.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\Neo4jClient.pdb
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\Neo4jClient.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\bin\Debug\Newtonsoft.Json.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\obj\Debug\FacePlace.CashingSystem.csprojResolveAssemblyReference.cache
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\obj\Debug\FacePlace.CashingSystem.csproj.CoreCompileInputs.cache
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\obj\Debug\FacePlace.CashingSystem.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace.CashingSystem\obj\Debug\FacePlace.CashingSystem.pdb

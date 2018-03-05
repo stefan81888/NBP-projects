@@ -1,0 +1,23 @@
+﻿
+<div class="single_blog_sidebar wow fadeInUp">
+    <h2>Top aranžmani</h2>
+    <ul class="featured_nav">
+        @foreach (var arrangement in Model.TopArrangements)
+        {
+            <li>
+                <a class="featured_img" href="#"><img src="~/images/featured_img1.jpg" alt=""></a>
+                <div class="featured_title"> <a class="" href="#">
+                      <p>@arrangement.Destination.Country</p>
+                    @{ 
+                        String place = arrangement.Destination.PlaceName;
+                        String arrangementId = arrangement.Arrangement.Id.ToString();
+                        bool isLogged = Model.IsLogged;
+                    }
+                      <p><b> @Html.ActionLink(place, "Index", "Arrangement", new { arrangementId = arrangementId, isLogged = Model.IsLogged }, null)</b></p>
+                      <p>Price: @arrangement.Arrangement.Price</p>
+                      <p>Duration: @arrangement.Arrangement.Duration days</p>
+                </a> </div>
+            </li>
+        }           
+    </ul>
+</div>

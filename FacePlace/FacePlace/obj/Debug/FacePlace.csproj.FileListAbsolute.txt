@@ -1,0 +1,174 @@
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\ApplicationInsights.config
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\FacePlace.dll.config
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\FacePlace.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\FacePlace.pdb
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Antlr3.Runtime.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\FacePlace.CashingSystem.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\FacePlace.DataLayer.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.AI.DependencyCollector.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.AI.Web.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.AI.WindowsServer.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.ApplicationInsights.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.Web.Infrastructure.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Newtonsoft.Json.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.Helpers.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.Mvc.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.Optimization.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.Razor.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.WebPages.Deployment.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.WebPages.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.WebPages.Razor.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\WebGrease.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\ServiceStack.Redis.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\ServiceStack.Text.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Neo4jClient.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\ServiceStack.Interfaces.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\ServiceStack.Common.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\FacePlace.CashingSystem.pdb
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\FacePlace.DataLayer.pdb
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\FacePlace.DataLayer.dll.config
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.Helpers.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.Mvc.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.Optimization.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.Razor.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.WebPages.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.WebPages.Deployment.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\System.Web.WebPages.Razor.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Antlr3.Runtime.pdb
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Newtonsoft.Json.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.ApplicationInsights.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.AI.DependencyCollector.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.AI.WindowsServer.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Microsoft.AI.Web.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\ServiceStack.Redis.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\ServiceStack.Text.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Neo4jClient.pdb
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\Neo4jClient.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\ServiceStack.Interfaces.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\bin\ServiceStack.Common.xml
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\obj\Debug\FacePlace.csprojResolveAssemblyReference.cache
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\obj\Debug\FacePlace.csproj.CoreCompileInputs.cache
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\obj\Debug\FacePlace.dll
+D:\Fakultet\Cetvrta godina\Napredne baze podataka\Git\nbp-projekat\FacePlace\FacePlace\obj\Debug\FacePlace.pdb
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\ApplicationInsights.config
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\FacePlace.dll.config
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\FacePlace.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\FacePlace.pdb
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Antlr3.Runtime.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\FacePlace.CashingSystem.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\FacePlace.DataLayer.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.AI.Web.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.ApplicationInsights.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Newtonsoft.Json.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.Helpers.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.Mvc.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.Optimization.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.Razor.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.WebPages.Deployment.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.WebPages.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.WebPages.Razor.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\WebGrease.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\ServiceStack.Redis.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\ServiceStack.Text.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Neo4jClient.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\ServiceStack.Interfaces.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\ServiceStack.Common.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\FacePlace.CashingSystem.pdb
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\FacePlace.DataLayer.pdb
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\FacePlace.DataLayer.dll.config
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.Helpers.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.Mvc.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.Optimization.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.Razor.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.WebPages.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.WebPages.Deployment.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\System.Web.WebPages.Razor.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Antlr3.Runtime.pdb
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Newtonsoft.Json.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.ApplicationInsights.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Microsoft.AI.Web.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\ServiceStack.Redis.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\ServiceStack.Text.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Neo4jClient.pdb
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\Neo4jClient.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\ServiceStack.Interfaces.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\bin\ServiceStack.Common.xml
+C:\Users\stefa\Desktop\FacePlace\FacePlace\obj\Debug\FacePlace.csprojResolveAssemblyReference.cache
+C:\Users\stefa\Desktop\FacePlace\FacePlace\obj\Debug\FacePlace.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Desktop\FacePlace\FacePlace\obj\Debug\FacePlace.dll
+C:\Users\stefa\Desktop\FacePlace\FacePlace\obj\Debug\FacePlace.pdb
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\ApplicationInsights.config
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\FacePlace.dll.config
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\FacePlace.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\FacePlace.pdb
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Antlr3.Runtime.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\FacePlace.CashingSystem.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\FacePlace.DataLayer.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.AI.Agent.Intercept.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.AI.DependencyCollector.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.AI.Web.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.AI.WindowsServer.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.ApplicationInsights.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.Web.Infrastructure.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Newtonsoft.Json.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.Helpers.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.Mvc.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.Optimization.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.Razor.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.WebPages.Deployment.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.WebPages.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.WebPages.Razor.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\WebGrease.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\ServiceStack.Redis.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\ServiceStack.Text.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Neo4jClient.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\ServiceStack.Interfaces.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\ServiceStack.Common.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\FacePlace.CashingSystem.pdb
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\FacePlace.DataLayer.pdb
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\FacePlace.DataLayer.dll.config
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.Helpers.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.Mvc.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.Optimization.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.Razor.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.WebPages.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.WebPages.Deployment.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\System.Web.WebPages.Razor.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Antlr3.Runtime.pdb
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Newtonsoft.Json.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.ApplicationInsights.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.AI.DependencyCollector.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.AI.WindowsServer.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Microsoft.AI.Web.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\ServiceStack.Redis.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\ServiceStack.Text.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Neo4jClient.pdb
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\Neo4jClient.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\ServiceStack.Interfaces.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\bin\ServiceStack.Common.xml
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\obj\Debug\FacePlace.csprojResolveAssemblyReference.cache
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\obj\Debug\FacePlace.csproj.CoreCompileInputs.cache
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\obj\Debug\FacePlace.dll
+E:\fax\Stefan\MyProjects\personal\FacePlace\FacePlace\obj\Debug\FacePlace.pdb

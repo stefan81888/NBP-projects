@@ -1,0 +1,47 @@
+﻿@model FacePlace.DataLayer.Model.Post
+
+
+@{
+    ViewBag.Title = "AddPost";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+
+<div class="tab-content">
+        <h1>Insert post details:</h1>
+
+        @using (Html.BeginForm("SavePost", "Posts"))
+        {
+
+            <div class="field-wrap">
+                <label>
+                    Place name<span class="reqs">*</span>   @*bila je klasa req*@
+                </label>
+                @Html.TextBoxFor(p => p.Place.Name, new { required = "required" })
+            </div>
+
+            <div class="field-wrap">
+                <label>
+                    Comment<span class="reqs">*</span>
+                </label>
+                @Html.TextAreaFor(p => p.Comment, new { required = "required", autocomplete = "off" })
+            </div>
+
+            <div class="field-wrap">
+                @{int[] rating = { 1, 2, 3, 4, 5 }; }
+                @Html.DropDownListFor(p => p.Rating,
+                                              new SelectList(rating, "Rating"),
+                                              "Your rating:",
+                                              new { @class = "form-control" })
+            </div>
+            <div class="field-wrap">
+                <label>
+                    @*Pictures<span class="req">*</span>*@
+                </label>
+            </div>
+
+            @Html.HiddenFor(p=>p.User.Username)
+            <button class="button button-block">Add post</button>
+        }
+
+</div><!-- tab-content -->

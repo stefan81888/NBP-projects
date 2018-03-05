@@ -1,0 +1,32 @@
+﻿@model TravelAgency.ViewModels.MainPageViewModel
+
+@{
+    ViewBag.Title = "Aranžmani";
+    Layout = "~/Views/Shared/_HomePageLayout.cshtml";
+}
+
+<h2>Aranzmani</h2>
+
+
+@foreach (var arrangement in Model.Arrangements)
+{
+    <div class="single_stuff wow fadeInDown">
+        <div class="single_stuff_img"> <a href="#"><img src="~/images/stuff_img1.jpg" alt=""></a> </div>
+        <div class="single_stuff_article">
+            <div class="single_sarticle_inner">
+                <a class="stuff_category" href="#">@arrangement.Destination.Country</a>
+                <div class="stuff_article_inner">
+                    <span class="stuff_date"><strong>@String.Format("{0:dd MMM}", arrangement.Arrangement.StartDate)</strong></span>
+                    <h2>
+                        @{ 
+                            String place = arrangement.Destination.PlaceName != null ? arrangement.Destination.PlaceName : " ";
+                            String arrangementId = arrangement.Arrangement.Id.ToString();
+                        }
+                        @Html.ActionLink(place, "Index", "Arrangement", new { arrangementId = arrangementId, isLogged = Model.IsLogged }, null)
+                    </h2>
+                    <p>Cena: @arrangement.Arrangement.Price</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}

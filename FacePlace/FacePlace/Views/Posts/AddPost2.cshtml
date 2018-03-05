@@ -1,0 +1,67 @@
+﻿@model FacePlace.DataLayer.Model.Post
+
+
+@{
+    ViewBag.Title = "AddPost";
+    Layout = "~/Views/Shared/_AddPostLayout.cshtml";
+}
+
+
+<div class="form-mini-container">
+
+    <h1>Add Post</h1>
+    @using (Html.BeginForm("SavePost", "Post"))
+    {
+
+        <div class="form-row">
+            @Html.TextBoxFor(p => p.Place.Name, new { required = "required", autocomplete = "off", placeholder = "Place name" })
+        </div>
+        <div class="form-row">
+            @Html.TextAreaFor(p => p.Comment, new { required = "required", autocomplete = "off", placeholder = "Comment" })
+        </div>
+        <div class="form-row">
+            @{int[] rating = { 1, 2, 3, 4, 5 }; }
+            @Html.LabelFor(p => p.Rating)
+            @Html.DropDownListFor(p => p.Rating,
+                                                 new SelectList(rating, "Rating"),
+                                                 "Your rating:",
+                                                 new { @class = "form-control" })
+        </div>
+
+        <div class="form-row">
+            @Html.TextAreaFor(p => p.Pictures, new { required = "required", autocomplete = "off", placeholder = "Comment" })
+        </div>
+
+
+        <button class="button button-block">Add post</button>
+    }
+
+</div>
+
+<div class="form-mini-container">
+
+    <h1>Add Post</h1>
+    @using (Html.BeginForm("SavePost", "Post", new { @class = "form-mini" }))
+    {
+        
+        <div class="form-row">
+            @Html.TextBoxFor(p => p.Place.Name, new { required = "required", autocomplete = "off", placeholder = "Place name" })
+        </div>
+        <div class="form-row">
+            @Html.TextAreaFor(p => p.Comment, new { required = "required", autocomplete = "off", placeholder = "Comment" })
+        </div>
+        <div class="form-row">
+            @{int[] rating = { 1, 2, 3, 4, 5 }; }
+            @Html.LabelFor(p => p.Rating)
+            @Html.DropDownListFor(p => p.Rating,
+                                                  new SelectList(rating, "Rating"),
+                                                  "Your rating:",
+                                                  new { @class = "form-control" })
+        </div>
+    
+    
+        <div class="form-row form-last-row">
+            <button type="submit">Submit Form</button>
+        </div>
+    }
+</div>

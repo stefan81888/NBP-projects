@@ -1,0 +1,25 @@
+﻿
+
+<div class="mini-posts">
+    <p> Recomended places</p>
+
+    @foreach (var p in Model.RecomendedPlaces)
+    {
+        <!-- Mini Post -->
+        <article class="mini-post">
+            <header>
+                @{
+                    string placeName = p.Name;
+                    string activeUserUsername = Model.User.Username;
+                    string placeId = p.Id;
+                }
+                <h3>
+                    @Html.ActionLink(placeName, "PlacePosts", "Posts", new { placeId = placeId, activeUserUsername = activeUserUsername }, null)
+                </h3>
+                <time class="published" datetime="2015-10-20">October 20, 2015</time>
+
+            </header>
+            <a href="#" class="image"><img src="~/images/pic04.jpg" alt="" /></a>
+        </article>
+    }
+</div>

@@ -1,0 +1,52 @@
+﻿@model FacePlace.DataLayer.Model.User
+
+
+@{
+    ViewBag.Title = "EditUserForm";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+<h1>Edit User</h1>
+
+<div class="edit-user">
+    @using (Html.BeginForm("SaveEditedUser", "Posts"))
+    {
+        <div class="top-row">
+            <div class="field-wrap">
+                <label>
+                    First Name<span class="req">*</span>
+                </label>
+                @Html.TextBoxFor(u => u.FirstName, new { required = "required", autocomplete = "off" })
+            </div>
+
+            <div class="field-wrap">
+                <label>
+                    Last Name<span class="req">*</span>
+                </label>
+                @Html.TextBoxFor(u => u.LastName, new { required = "required", autocomplete = "off" })
+
+            </div>
+        </div>
+        <div class="field-wrap">
+            <label>
+                Email Address<span class="req">*</span>
+            </label>
+            @Html.TextBoxFor(u => u.Email, new { required = "required", autocomplete = "off" })
+        </div>
+        <div class="field-wrap">
+            <label>
+                Set A Password<span class="req">*</span>
+            </label>
+            @Html.PasswordFor(u => u.Password, new { placeholder="Password", required = "required", autocomplete = "off" })
+        </div>
+        <div class="field-wrap">
+            <label>
+                Date of Birth<span class="req">*</span>
+            </label>
+            @Html.TextBoxFor(u => u.DateOfBirth, "{0:d MMM yyyy}", new { required = "required", autocomplete = "off" })
+        </div>
+
+        @Html.HiddenFor(u => u.Username)
+        <button type="submit" class="button button-block">Save</button>
+    }
+</div>

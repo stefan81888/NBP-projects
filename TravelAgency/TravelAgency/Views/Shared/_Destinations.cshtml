@@ -1,0 +1,18 @@
+﻿
+
+<div class="single_blog_sidebar wow fadeInUp">
+    <h2>Top destinacije</h2>   
+    <ul class="middlebar_nav wow">
+        @foreach (var destination in Model.Destinations)
+        {
+            <li> <a href="#" class="mbar_thubnail"><img alt="" src="~/images/hot_img1.jpg"></a> <a href="#" class="mbar_title">                
+                 <p>   @{ 
+                         string place = destination.PlaceName == null? "default" : destination.PlaceName;
+                     }
+                     <br />
+                    @Html.ActionLink(place, "PlaceArrangements", "Main", new { placeName = place, isLogged = Model.IsLogged }, null)
+               </p>             
+            </a> </li>
+        }        
+    </ul>
+</div>

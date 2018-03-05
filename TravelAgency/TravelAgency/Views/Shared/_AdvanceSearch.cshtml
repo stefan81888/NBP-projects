@@ -1,0 +1,62 @@
+﻿@model TravelAgency.ViewModels.MainPageViewModel
+
+<div>
+    @using (Html.BeginForm("AdvanceSearch", "Main", null, FormMethod.Post, new { @class = "search-form" }))
+    {
+    <h2>Pretraži aranžmane</h2>
+
+    <div style="clear:both; margin-bottom: 10%">
+        <span style="float:left">Mesto</span>
+        <div style="float:right; width: 80%">          
+    @Html.TextBoxFor(criteria => criteria.SearchCriterias.Country)                                             
+        </div>
+    </div>
+    <br />    
+    <div style="clear:both; margin-bottom: 7%">
+        <span style="float:left">Polazak </span>
+        <div style="float:right; width: 80%">        
+            @Html.TextBoxFor(criteria => criteria.SearchCriterias.StartDate,  new { placeholder = "dd-MM-yyyy" })
+        </div>
+    </div>
+    <br />
+    <div style="clear:both; margin-bottom: 7%">
+        <span style="float:left">Trajnje </span>
+        <div style="float:right; width: 80%">
+           @{   int[] duration = new int[] { 5, 7, 10, 12, 14, 15, 20 };
+        }
+        @Html.DropDownListFor(criteria => criteria.SearchCriterias.Duration, new SelectList(duration, "Duration"), "Trajanje")
+        </div>
+    </div>
+    <br />
+    <div style="clear:both; margin-bottom: 7%">
+        <span style="float:left">Tip </span>
+        <div style="float:right; width: 80%">
+            @{   string[] type = new string[] { "Half Board", "Full board", "All included" };
+            }
+            @Html.DropDownListFor(criteria => criteria.SearchCriterias.Type, new SelectList(type, "Type"), "Tip aranžmana")
+        </div>
+    </div>
+    <br />
+    <div style="clear:both; margin-bottom: 7%">
+        <span style="float:left">Cena </span>
+        <div style="float:right; width: 80%">
+            @Html.TextBoxFor(criteria => criteria.SearchCriterias.Price)
+        </div>
+    </div>
+    <br />
+    <div style="clear:both; margin-bottom: 7%">
+        <span style="float:left">Putnici</span>
+        <div style="float:right; width: 80%">
+            @{   int[] passangersNumber = new int[] { 1,2,3,4,5,6,7,8,9,10 };
+            }
+            @Html.DropDownListFor(criteria => criteria.SearchCriterias.MaxNumberOfPassengers, new SelectList(passangersNumber, "MaxNumberOfPassangers"), "Broj putnika")
+        </div>
+    </div>
+    <br />
+    <div style="margin-left:20%; margin-bottom:10%">
+        <button class="btn btn-search">Pretraži</button>
+    </div>
+     }
+</div>
+
+

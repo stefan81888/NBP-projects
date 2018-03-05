@@ -1,0 +1,23 @@
+﻿
+<p> Recomended people</p>
+
+
+@foreach (var user in Model.RecomendedFriends)
+{
+    <ul class="posts">
+        <li>
+            <article>
+                <header>
+                    @{
+                        string username = Model.User.Username;
+        string name = user.FirstName + " " + user.LastName;
+        string friend = user.Username;
+    }
+
+    @Html.ActionLink(name, "FriendsPost", "Posts", new { friend = friend, username = username },null)
+                </header>
+                <a href="#" class="image"><img src="~/images/pic08.jpg" alt="" /></a>
+            </article>
+        </li>
+    </ul>
+}
